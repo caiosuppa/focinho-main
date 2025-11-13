@@ -7,23 +7,6 @@ body {
   
 }
 
-header {
-  background-color: #924A90;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
 .hero {
   text-align: center;
   padding: 2rem;
@@ -46,14 +29,6 @@ img {
   width: 45%;
   border-radius: 10px;
   margin: 10px;
-}
-
-footer {
-  background-color: #924A90;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
 }
 
 form {
@@ -80,23 +55,6 @@ button {
 
 button:hover {
   background-color: #925A90;
-}
-#icones {
-  display: flex; /* Alinha os ícones lado a lado */
-  justify-content: center; /* Opcional: Centraliza o grupo de ícones horizontalmente */
-  align-items: center; /* Opcional: Alinha os ícones verticalmente (se tiverem tamanhos diferentes) */
-  gap: 150px; /* Adiciona espaço entre os ícones (alternativa moderna para margin) */
-    
-}
-
-#icones svg {
-  font-size: 300px; /* Ajusta o tamanho do ícone */
-  color: #333; /* Define a cor do ícone */
-  cursor: pointer; /* Adiciona um cursor de mãozinha ao passar o mouse */
-  transition: color 0.3s ease; /* Adiciona uma transição suave para efeitos de hover */
-}
-#icones svg:hover {
-    fill: #007bff;
 }
 
 .bi-instagram {
